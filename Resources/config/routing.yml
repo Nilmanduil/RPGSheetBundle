@@ -1,3 +1,19 @@
+nilmanduil_rpg_sheet_admin:
+    resource: "@NilmanduilRPGSheetBundle/Resources/config/routes/routing_admin.yml"
+    prefix:   /admin
+    
+nilmanduil_rpg_sheet_master:
+    resource: "@NilmanduilRPGSheetBundle/Resources/config/routes/routing_master.yml"
+    prefix:   /master
+    
+nilmanduil_rpg_sheet_player:
+    resource: "@NilmanduilRPGSheetBundle/Resources/config/routes/routing_player.yml"
+    prefix:   /player
+    
+nilmanduil_rpg_sheet_api:
+    resource: "@NilmanduilRPGSheetBundle/Resources/config/routes/routing_api.yml"
+    prefix:   /api
+
 nilmanduil_rpg_sheet_homepage:
     path:     /hello/{name}
     defaults: { _controller: NilmanduilRPGSheetBundle:Default:index }

@@ -1,0 +1,4 @@
+nilmanduil_rpg_sheet_admin_homepage:
+    path:     /
+    defaults: { _controller: NilmanduilRPGSheetBundle:Admin:index }
+
