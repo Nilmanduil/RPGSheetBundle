@@ -1,0 +1,40 @@
+{
+    "name": "Nilmanduil/RPGSheetBundle",
+    "type": "symfony-bundle",
+    "description": "This Bundle allows to administrate Character Sheets for RPGs",
+    "keywords": ["RPG", "character", "character sheet"],
+    "homepage": "https://github.com/Nilmanduil/RPGSheetBundle",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Thibault Goudouneix",
+            "email": "thibault.goudouneix@gmail.com"
+        }
+    ],
+
+    "require": {
+        "symfony/framework-bundle":     "^2.7|^3.0",
+        "friendsofsymfony/rest-bundle": "^2.1"
+    },
+
+    "require-dev": {
+        
+    },
+
+    "suggest": {
+        
+    },
+
+    "autoload":{
+        
+    },
+
+    "conflict": {
+        
+    },
+
+
+    "extra": {
+        
+    }
+}

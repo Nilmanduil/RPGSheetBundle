@@ -1,0 +1,3 @@
+nilmanduil_rpg_sheet_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: NilmanduilRPGSheetBundle:Default:index }
